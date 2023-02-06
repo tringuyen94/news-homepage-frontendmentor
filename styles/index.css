@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+   RESET CSS 
+*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/***************/
+body {
+   font-family: Montserrat, sans-serif;
+   font-size: 15px;
+   max-width: 1440px;
+}
+
+main {
+   padding: 2rem 4.5rem;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+}
+
+section {
+   margin-top: 3rem;
+}
+
+nav .navigator {
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo img {
+   width: 100%;
+}
+
+.navigator li {
+   margin-right: 2rem;
+}
+
+.navigator li a {
+   color: grey;
+   text-decoration: none;
+   transition: color .25s ease;
+}
+
+.navigator li a:hover {
+   color: lightsalmon;
+
+}
+
+.information {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* 
+   Bright future CSSS
+*/
+
+.bright-future img {
+   width: 100%;
+}
+
+.bright-future__content {
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.bright-future__content h1 {
+   width: 50%;
+   font-weight: 800;
+   font-size: 3rem;
+   letter-spacing: .5px;
+   padding-right: 2rem;
+}
+
+.bright-future__content .text {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+
+.bright-future__content .text p {
+   color: rgb(174, 165, 165);
+   line-height: 1.5rem;
+   font-size: .9rem;
+
+}
+
+.bright-future__content .text button {
+   border: none;
+   color: white;
+   background-color: #F15D51;
+   text-transform: uppercase;
+   font-weight: 500;
+   cursor: pointer;
+   letter-spacing: .3rem;
+   width: 50%;
+   padding: 18px 10px;
+}
+
+/* 
+New CSS
+
+ */
+.new {
+   margin-left: 2rem;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 0 2rem;
+}
+
+hr {
+   border: .5px solid lightgrey;
+}
+
+.new h2 {
+   color: #F0A74C;
+   font-size: 2rem;
+   margin-top: 1rem;
+}
+
+
+.new .content {
+   padding: 2rem 0;
+}
+
+.new .content h3 {
+   color: white;
+   margin-bottom: 1rem;
+}
+
+.new .content p {
+   color: grey
+}
+
+/* 
+   Product CSS
+*/
+.products-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.products-card {
+   display: flex;
+   cursor: pointer;
+}
+
+
+.products-card img {
+   flex-shrink: 2;
+   max-height: 9rem;
+}
+
+.products-card-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 0 1rem;
+}
+
+.products-card-content h2 {
+   color: lightgrey;
+   font-size: 1.7rem;
+}
+
+.products-card-content h3 {
+   margin: .5rem 0
+}
+
+.products-card-content p {
+   color: grey;
+   font-size: .9rem;
+}
